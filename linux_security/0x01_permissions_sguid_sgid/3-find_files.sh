@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find "$1" -perm /6000 -ls 2>/dev/null
+sudo find "$1" -perm /6000 -exec ls -la {} \; 2>/dev/null
