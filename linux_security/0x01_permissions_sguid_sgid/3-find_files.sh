@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo find "$1" -perm /6000 -ls 2>/dev/null
